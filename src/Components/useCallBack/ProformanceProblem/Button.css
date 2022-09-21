@@ -1,0 +1,89 @@
+/* .button {
+    padding: 0.8em 1.8em;
+    border: 2px solid #17C3B2;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #17C3B2;
+   }
+   
+   button::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #17C3B2;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   button:hover::before {
+    width: 105%;
+   }
+   
+   button:hover {
+    color: #111;
+   }
+    */
+    /* .button {
+        width: 9em;
+        height: 3em;
+        border-radius: 30em;
+        font-size: 15px;
+        font-family: inherit;
+        border: none;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        box-shadow: 6px 6px 12px #c5c5c5,
+                    -6px -6px 12px #ffffff;
+       }
+       
+       button::before {
+        content: '';
+        width: 0;
+        height: 3em;
+        border-radius: 30em;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+        transition: .5s ease;
+        display: block;
+        z-index: -1;
+       }
+       
+       button:hover::before {
+        width: 9em;
+       } */
+       .btn {
+        width: 170px;
+        height: 60px;
+        font-size: 18px;
+        background: #fff;
+        border: none;
+        border-radius: 50px;
+        color: #000;
+        outline: none;
+        cursor: pointer;
+        transition: all 0.4s;
+       }
+       
+       .btn:hover {
+        box-shadow: inset 0 0 0 4px #ef476f, 
+                     inset 0 0 0 8px #ffd166, 
+                     inset 0 0 0 12px #06d6a0,
+                     inset 0 0 0 16px #118ab2;
+        background: #073b4c;
+        color: #fff;
+       }
